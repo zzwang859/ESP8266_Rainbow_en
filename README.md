@@ -7,6 +7,8 @@
 This is an ESP8266-based toy developed with the Arduino environment. It accurately calculates the position of the sun based on geographic location and time, then adjusts the prism's orientation in real time to disperse sunlight into a rainbow projected inside the room, creating a calm and pleasant atmosphere. The program includes a low-power sleep mechanism that allows it to run entirely on solar power. It can also connect to WiFi to retrieve information and display the date, weather, battery level, and configuration status on an e-paper screen.  
 [Visit here for more information and a demonstration](https://www.bilibili.com/video/BV1gX4y1D7wM/?vd_source=42ecb46c8304961543d4f286cf99d5a6)
 
+[需要中文版本资料，请点击这里访问中文仓库](https://github.com/zzwang859/ESP8266_Rainbow_zh)
+
 ## Directory Structure
 ```text
 .
@@ -25,7 +27,7 @@ This is an ESP8266-based toy developed with the Arduino environment. It accurate
 │   ├── Sun/                     # Solar position calculation and optimal prism angle search
 │   └── wifi_html/               # HTML resources for the WiFi configuration page
 ├── docments/                    # Project documentation/resources, including program flowcharts and finished product manual
-├── Print_STL/                   # Enclosure source files for 3D printing
+├── Print_Step/                   # Enclosure source files for 3D printing
 ├── PCB_SCH/                     # Schematic and PCB files
 └── images/                      # Finished product photos and actual effect images
 ```
@@ -79,7 +81,7 @@ The schematic and PCB files are located in `PCB_SCH/` and were designed using Ea
 ![PCBA](./images/pcb.png)
 
 ## Enclosure and Bill of Materials
-The 3D-printable enclosure files are located in the `Print_STL` directory. However, additional materials, such as stepper motors and a solar panel, are required to assemble the complete product. The list is as follows:
+The 3D-printable enclosure files are located in the `Print_Step` directory. However, additional materials, such as stepper motors and a solar panel, are required to assemble the complete product. The list is as follows:
 
 |Part Name| Quantity|Unit|Specifications|Notes|
 |:---:|:---:|:---:|:---:|:---:|
@@ -107,7 +109,7 @@ The 3D-printable enclosure files are located in the `Print_STL` directory. Howev
 5. Remove the product from the hooks, press the hooks firmly against the glass again, and then hang the product back in place.
 
 #### Placing on a Windowsill with Stands
-The 3D printing files are located in the `Print_STL` directory, which includes files for a pair of stands that can be printed to support the device.
+The 3D printing files are located in the `Print_Step` directory, which includes files for a pair of stands that can be printed to support the device.
 
 ### Initial Setup
 

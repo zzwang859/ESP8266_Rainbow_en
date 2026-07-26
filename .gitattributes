@@ -7,8 +7,9 @@
 *.md text eol=lf
 *.zip binary
 *.rar binary
-*.STL binary
+*.step binary
 *.eprj binary
 *.png binary
 *.pdf binary
 *.jpg binary
+
